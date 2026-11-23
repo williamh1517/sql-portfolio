@@ -58,3 +58,4 @@ which uses the container's own env and in-container auth rather than passing a p
 - The source file is sorted **newest-first**, so `--sample N` gives the most recent loans only —
   fine for smoke tests, misleading for any statistic, and it never reaches the pre-2012 rows that
   carry the credit-policy prefix.
+- Work one sub-step at a time. After the plan, after the sample run, and before any commit or push, stop and wait for my go-ahead.
