@@ -7,7 +7,7 @@ table, and the analysis queries built on top of it.
 ## Prerequisites
 
 - Docker (for Postgres 17)
-- Python 3.13 with the virtualenv at `.venv` — `pip install -r requirements.txt`
+- Python 3.14 with the virtualenv at `.venv` — `pip install -r requirements.txt`
 
 ## Setup
 
@@ -28,7 +28,7 @@ docker compose up -d
 docker compose ps          # wait for "healthy"
 ```
 
-**3. Get the data.** Download *Lending Club 2007-2020Q3* from Kaggle
+**3. Get the data.** Download *All Lending Club loan data* from Kaggle
 (`wordsforthewise/lending-club`) and put the accepted-loans file at:
 
 ```
